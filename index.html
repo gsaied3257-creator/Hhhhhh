@@ -143,7 +143,7 @@
     </div>
     <div class="btn-row" id="punishment-actions" style="display:none;">
       <button id="btn-done">تم التنفيذ</button>
-      <button id="btn-punish-again">عقاب تاني</button>
+      <button id="btn-punish-again">انا مش قده</button>
     </div>
   </section>
 
@@ -198,7 +198,7 @@
       punishments = parseNumberedList(pRaw);
 
       if (questions.length === 0 || punishments.length === 0){
-        errorBox.textContent = 'لازم تكتب سؤال واحد على الأقل وعقاب واحد على الأقل.';
+        errorBox.textContent = 'فين السوال .';
         return;
       }
       errorBox.textContent = '';
